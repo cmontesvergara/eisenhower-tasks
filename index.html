@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matriz Eisenhower App</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #6e6e73;
+  font-size: 18px;
+}
+
+.cta {
+  margin-top: 25px;
+}
+
+button {
+  background: #007aff;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+  margin-top: 60px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* SECTION */
+.section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 80px;
+  color: #999;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero container">
+  <h1>Organiza lo importante</h1>
+  <p>Una app minimalista para priorizar tareas usando la matriz de Eisenhower.</p>
+  
+  <div class="cta">
+    <button onclick="alert('Abre tu index.html')">Abrir App</button>
+  </div>
+</div>
+
+<div class="container features">
+  <div class="card">
+    <h3>📊 Priorización clara</h3>
+    <p>Divide tareas en urgente/importante para tomar mejores decisiones.</p>
+  </div>
+
+  <div class="card">
+    <h3>🧲 Drag & Drop</h3>
+    <p>Mueve tareas con animaciones suaves tipo iOS.</p>
+  </div>
+
+  <div class="card">
+    <h3>✅ Subtareas</h3>
+    <p>Descompón tareas complejas en checklists manejables.</p>
+  </div>
+
+  <div class="card">
+    <h3>💾 Sin backend</h3>
+    <p>Todo se guarda automáticamente en tu navegador.</p>
+  </div>
+</div>
+
+<div class="container section">
+  <h2>Simple. Rápido. Enfocado.</h2>
+  <p>Sin distracciones. Solo lo que necesitas para ejecutar mejor.</p>
+</div>
+
+<div class="footer">
+  Hecho con enfoque en productividad real
+</div>
+
+</body>
+</html>
